@@ -30,12 +30,6 @@ vendor/lib/rfsa/adsp/libscveT2T_skel.so|91b9200dbb982abf0d6b440668252d892a616f66
 vendor/lib/rfsa/adsp/libmorpho_image_stabilizer4_hvx_skel.so|5a091a4ea958d8d5c841c9f175500b185e279378
 vendor/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so|0eba88c4bb08ef4f3920547b1366e6f8e044f99a
 
-# Alipay
--priv-app/IFAAService/IFAAService.apk
-lib64/vendor.oneplus.hardware.ifaa@2.0.so
-vendor/bin/hw/vendor.oneplus.hardware.ifaa@2.0-service
-vendor/etc/init/vendor.oneplus.hardware.ifaa@2.0-service.rc
-
 # ANT+ - system - from miui_DAISYGlobal_V11.0.2.0.QDLMIXM_d59f395371_10.0
 -lib/libantradio.so|76795ae01c5a1d4f8e15ebc1ff8a7f6282cd6797
 -lib64/libantradio.so|6ffd4e9ab3107358d9a4484d4b10430026fa9bf4
@@ -990,13 +984,6 @@ vendor/firmware/a530v1_pm4.fw
 vendor/firmware/a530v2_seq.fw2
 vendor/firmware/a530v3_gpmu.fw2
 vendor/firmware/a530v3_seq.fw2
-
-# Soter
--app/SoterService/SoterService.apk
-vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
-vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
-vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
 # Thermal
 vendor/bin/thermal-engine
