@@ -40,6 +40,9 @@ sdm.perf_hint_window=50
 #Disable Skip Validate
 sdm.debug.disable_skip_validate=1
 
+# Blurrr
+ro.surface_flinger.supports_background_blur=1
+
 # Display Properties as per treble compliance
 vendor.gralloc.enable_fb_ubwc=1
 vendor.display.disable_skip_validate=1
