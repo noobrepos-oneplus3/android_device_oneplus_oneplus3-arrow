@@ -34,10 +34,23 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
 
+# Hardware
+PRODUCT_BOARD_PLATFORM := msm8996
+PRODUCT_USES_QCOM_HARDWARE := true
+
+# HALS
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8996/audio
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8996/display
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/msm8996/media
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     device/oneplus/oneplus3 \
     vendor/nxp/opensource/pn5xx
+#PRODUCT_SOONG_NAMESPACES += \
+#    device/oneplus/oneplus3 \
+#    vendor/nxp/opensource/pn5xx \
+#    hardware/qcom-caf/msm8996
 
 # Permissions
 PRODUCT_COPY_FILES += \
